@@ -1,3 +1,5 @@
 module MovieApp_V2
 
-go 1.15
+go 1.17
+
+require github.com/stretchr/testify v1.7.0
