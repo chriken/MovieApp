@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "MovieApp"
+  name: "node-exporter"
   description: "Code test"
   annotations:
     github.com/project-slug: chriken/MovieApp
