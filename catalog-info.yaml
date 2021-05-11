@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "MovieApp"
+  description: "Code test"
+  annotations:
+    github.com/project-slug: chriken/MovieApp
+    backstage.io/techdocs-ref: url:https://github.com/chriken/MovieApp
+    backstage.io/kubernetes-label-selector: 'MovieApp'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "chriken"
